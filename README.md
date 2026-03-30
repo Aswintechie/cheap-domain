@@ -36,6 +36,15 @@ Whether you need a domain for your portfolio, blog, startup, or side project, we
 
 ## 🚀 How to Get Your Domain
 
+### Option 1: Via GitHub Issue (Recommended) 🐙
+
+1. **[Open a Subdomain Request issue](https://github.com/Aswintechie/cheap-domain/issues/new?template=subdomain-request.yml)** – Fill in your desired subdomain name, target IP/URL, and contact email using our easy form
+2. **We'll reply** with payment details within a few hours
+3. **Make the payment** – ₹20 via UPI / bank transfer
+4. **Go live!** – Your domain will be active within 24 hours
+
+### Option 2: Via Email 📧
+
 1. **Choose your domain name** – e.g., `mybusiness.aswincloud.com`
 2. **Send an email** to [contact@aswincloud.com](mailto:contact@aswincloud.com) with your desired domain name
 3. **Make the payment** – ₹20 via UPI / bank transfer (details in reply)
