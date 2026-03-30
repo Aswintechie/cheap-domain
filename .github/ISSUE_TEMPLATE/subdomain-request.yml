@@ -1,0 +1,81 @@
+name: 🌐 Subdomain Request
+description: Request a custom subdomain under aswincloud.com for just ₹20/month
+title: "[Subdomain Request] yourname.aswincloud.com"
+labels: ["subdomain-request"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## 🌐 Subdomain Registration Request
+        Fill in the details below to request your custom subdomain under **aswincloud.com**.
+        After submitting, we will reply within 24 hours with payment details.
+        **Price:** ₹20/month | ₹200/year
+
+  - type: input
+    id: subdomain
+    attributes:
+      label: Desired Subdomain Name
+      description: Enter the subdomain you want (without `.aswincloud.com`). E.g. `myportfolio` → `myportfolio.aswincloud.com`
+      placeholder: myportfolio
+    validations:
+      required: true
+
+  - type: input
+    id: target
+    attributes:
+      label: Target IP Address or URL
+      description: Where should this subdomain point to? Provide an IP address or a URL.
+      placeholder: 192.168.1.1 or https://my-site.netlify.app
+    validations:
+      required: true
+
+  - type: dropdown
+    id: record_type
+    attributes:
+      label: DNS Record Type
+      description: What type of DNS record do you need?
+      options:
+        - A Record (IP address)
+        - CNAME Record (another domain/URL)
+        - I'm not sure (we'll help you)
+    validations:
+      required: true
+
+  - type: dropdown
+    id: plan
+    attributes:
+      label: Billing Plan
+      description: Choose your preferred billing plan.
+      options:
+        - Monthly – ₹20/month
+        - Annual – ₹200/year
+    validations:
+      required: true
+
+  - type: input
+    id: email
+    attributes:
+      label: Contact Email
+      description: Your email address so we can send you payment details and confirmation.
+      placeholder: you@example.com
+    validations:
+      required: true
+
+  - type: textarea
+    id: use_case
+    attributes:
+      label: What will you use this subdomain for?
+      description: Briefly describe your project or use case (portfolio, blog, startup, etc.)
+      placeholder: Personal portfolio to showcase my projects
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: agreement
+    attributes:
+      label: Agreement
+      options:
+        - label: I understand that the subdomain will be activated within 24 hours after payment confirmation.
+          required: true
+        - label: I agree to use this subdomain only for lawful purposes.
+          required: true
